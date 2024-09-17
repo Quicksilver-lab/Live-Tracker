@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
           attribution:
-            '&copy; <a href="https://www.github.com/Quicksilver-lab">Quicksilver-lab</a> contributors',
+            '&copy; <a href="https://www.github.com/Quicksilver-lab">Quicksilver-lab</a> QuickSilver',
         }).addTo(map);
       },
       { enableHighAccuracy: true, timeout: 5000, maximumAge: 0 }
